@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructcraft</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Recursos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="topo">
+            <h1>Constructcraft</h1>
+            <p>Uma plataforma que ensina a criar jogos.</p>
+            <video loop id="video-fundo">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </header>
+
+    <main>
+        <section class="tutorial">
+            <div class="content video-left">
+                <video loop>
+                    <source src="video2d.mp4" type="video/mp4">
+                </video>
+                <div class="info1">
+                    <h2>Jogos 2D</h2>
+                    <p>Aprenda a criar jogos 2D do zero com nossas aulas detalhadas.</p>
+                    <button class="iniciar" data-course="Jogos 2D">Iniciar Curso</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="tutorial">
+            <div class="content video-right">
+                <div class="info2">
+                    <h2>Jogos 3D</h2>
+                    <p>Descubra como desenvolver jogos 3D incríveis.</p>
+                    <button class="iniciar" data-course="Jogos 3D">Iniciar</button>
+                </div>
+                <video loop>
+                    <source src="video3d.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="tutorial">
+            <div class="content video3">
+                <video loop>
+                    <source src="videotiro.mp4" type="video/mp4">
+                </video>
+                <div class="info3">
+                    <h2>Jogos de Tiro</h2>
+                    <p>Crie jogos de tiro empolgantes com nosso guia passo a passo.</p>
+                    <button class="iniciar" data-course="Jogos de Tiro">Iniciar Curso</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

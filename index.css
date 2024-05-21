@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1b0533;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topo {
+    position: relative;
+    z-index: 2;
+}
+
+.topo h1 {
+    color: white;
+    text-align: left;
+    font-size: 4.5em;
+    padding-top: 18vh;
+    padding-left: 30vh;
+    padding-right: 45vh;
+}
+
+.topo p {
+    font-size: 1.5em;
+    padding: 90px;
+    padding-right: 200px;
+}
+
+#video-fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.tutorial {
+    color: white;
+    margin: 20px 0;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial h1 {
+    color: #7513b6;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content.video-left video,
+.content.video3 video {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.content.video-right video {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.info1, .info2, .info3 {
+    flex: 1;
+}
+
+.info1 h2, .info2 h2, .info3 h2 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.info1 p, .info2 p, .info3 p {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #a108a7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #7513b6;
+}
